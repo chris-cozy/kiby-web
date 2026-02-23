@@ -1,0 +1,40 @@
+:root {
+  --bg: #dff5e8;
+  --surface: rgba(255, 252, 246, 0.9);
+  --surface-strong: rgba(255, 251, 242, 0.95);
+  --text: #173744;
+  --muted: #2f5d69;
+  --primary: #ff7f8f;
+  --primary-hover: #f06c7e;
+  --border: rgba(24, 71, 81, 0.26);
+  --link: #1f5d7d;
+  --focus: #266bf8;
+  --shadow-soft: 0 14px 30px rgba(21, 56, 65, 0.2);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.9rem;
+  --radius-lg: 1.2rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  --font-sans: 'Nunito', 'Avenir Next', 'Segoe UI', sans-serif;
+  --font-display: 'VT323', 'Courier New', monospace;
+
+  /* Compatibility aliases */
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-strong);
+  --color-text: var(--text);
+  --color-text-muted: var(--muted);
+  --color-border: var(--border);
+  --color-brand: var(--primary);
+  --color-brand-strong: #b84f63;
+  --color-brand-soft: #ffd1d8;
+  --color-focus: var(--focus);
+}
